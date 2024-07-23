@@ -1,3 +1,19 @@
+--Project Objective:
+--Create flu shots dashboard in Tableau using integreated data within PostgreSQL.  
+
+--1.) Total percent of patients getting flu shots stratified by
+	--a.) Age
+	--b.) Race
+	--c.) County 
+	--d.) Overall
+--2.) Running Total of Flu Shots over the course of 2022
+--3.) Total number of Flu shots given in 2022
+--4.) A list of Patients that show whether or not they received the flu shots
+   
+--Requirements:
+	--Patients must have been "Active"
+------------------------------------------------------------------------------------------------------------------------------------
+
 with active_patients as
 (
 	select distinct patient
